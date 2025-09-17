@@ -6,21 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            background-color: #222;
+            background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 1400% 1400%;
+            animation: tntn 0.1s ease infinite;
+        }
+
+        @keyframes tntn {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        figure {
+            text-align: center;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        figcaption {
+            margin-top: 5px;
+            color: #fff;
+            font-size: 50px;
+            text-align: center;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+            background-color: rgba(0,0,0,0.3);
+            padding: 2px 6px;
+            border-radius: 4px;
+            max-width: 90%;
+            word-wrap: break-word;
+        }
+
+        img {
+            max-width: 90%;
+            height: auto;
         }
     </style>
 </head>
 
 <body>
-<img src="https://raw.githubusercontent.com/calcsupv/H5GG-Script-kiyu4776/main/%7BC5ABAFD7-3C1A-492C-B758-51605AACA953%7D.png" alt="個人的に嫌い">
-<img src="https://raw.githubusercontent.com/calcsupv/H5GG-Script-kiyu4776/main/%7BBA8DB93C-5F96-4B43-8D0D-FEA1F101960B%7D.png" alt="話が通じない、普通に無視">
-<img src="https://raw.githubusercontent.com/calcsupv/H5GG-Script-kiyu4776/main/%7B97E3C3EC-6490-4CA7-80A5-252CF1742957%7D.png" alt="無断販売　普通にこれはだめ">
+    <figure>
+        <figcaption>個人的に嫌い</figcaption>
+        <img src="https://raw.githubusercontent.com/calcsupv/H5GG-Script-kiyu4776/main/%7BC5ABAFD7-3C1A-492C-B758-51605AACA953%7D.png">
+    </figure>
 
+    <figure>
+        <figcaption>話が通じない、普通に無視</figcaption>
+        <img src="https://raw.githubusercontent.com/calcsupv/H5GG-Script-kiyu4776/main/%7BBA8DB93C-5F96-4B43-8D0D-FEA1F101960B%7D.png">
+    </figure>
 
-
-    <script>
-        // JavaScript
-    </script>
+    <figure>
+        <figcaption>無断販売　普通にこれはだめ</figcaption>
+        <img src="https://raw.githubusercontent.com/calcsupv/H5GG-Script-kiyu4776/main/%7B97E3C3EC-6490-4CA7-80A5-252CF1742957%7D.png">
+    </figure>
 </body>
 
 </html>
