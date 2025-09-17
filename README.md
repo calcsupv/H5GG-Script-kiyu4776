@@ -9,7 +9,7 @@
 
 ---
 
-## 話が通じない、普通に無視される
+## 無断販売　話が通じない、普通に無視される
 ![話が通じない、普通に無視](https://raw.githubusercontent.com/calcsupv/H5GG-Script-kiyu4776/main/%7BBA8DB93C-5F96-4B43-8D0D-FEA1F101960B%7D.png)
 
 ---
