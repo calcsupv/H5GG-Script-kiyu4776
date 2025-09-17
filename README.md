@@ -14,7 +14,7 @@
 
 ---
 
-## 無断販売　普通にこいつはだめ
+## 無断販売　普通にこいつはだめ　バレないようにアイコン変えてるのも死刑
 ![無断販売　普通にこいつはだめ](https://raw.githubusercontent.com/calcsupv/H5GG-Script-kiyu4776/main/%7B97E3C3EC-6490-4CA7-80A5-252CF1742957%7D.png)
 
 ---
